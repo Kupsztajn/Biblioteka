@@ -14,7 +14,7 @@
   color: white;
   font-weight: 700;
   font-size: 1.3rem;
-  padding: 0 30px;
+  padding: 0px 0px /* 0 30px; */
   z-index: 9999;
   border-radius: 0 0 15px 15px;
   user-select: none;
@@ -37,6 +37,7 @@
   cursor: pointer;
   border: none;
   color: white;
+  top: -4px;
 }
 
 .navbar button.logout-btn:hover {
@@ -46,7 +47,7 @@
 }
 
 .navbar button.logout-btn:active {
-  transform: translateY(1px);
+  transform: translateY(-10px);
   box-shadow: 0 2px 7px rgba(212, 47, 47, 0.5);
   outline: none;
 }
